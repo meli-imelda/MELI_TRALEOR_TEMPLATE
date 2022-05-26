@@ -650,12 +650,18 @@ button.secondary {
   margin-bottom: 4rem;
 }
 .author {
-  margin-right: 2%;
+  margin-right: 4%;
+  display: flex;
 }
 .author img {
   width: 5rem;
   height: 5rem;
   border-radius: 50%;
+}
+.author span{
+  width: 5rem;
+  padding: 20% 4%;
+  text-align: center;
 }
 
 /* ---------------------- End Blog Post -------------------------- */
@@ -845,6 +851,44 @@ button.secondary {
   .blog__post__wrapper {
     padding: 2rem 0;
   }
+  .blog__post__wrapper h1{
+    font-size: 2.5rem;
+  }
+  .blog__post__wrapper h2, .text__component h2{
+    font-size:2rem ;
+  }
+  .blog__post__wrapper h3{
+    font-size:1.5rem ;
+  }
+  .blog__post__wrapper h4{
+    font-size:1.2rem ;
+  }
+  .authors__wrapper {
+    margin-bottom: 1rem;
+}
+.blog__post__wrapper > .dummy-class > .flex{
+  flex-wrap: wrap;
+  margin: 1rem 0.5rem;
+}
+.author{
+  margin-top: 1rem;
+}
+.author img {
+  width: 3rem;
+  height: 3rem;
+}
+.author span {
+  padding: 12% 0.1%;
+}
+
+/* Made Mark */
+.made__mark{
+  padding: 0.3rem;
+  left: 0.7rem;
+}
+.made__mark h3{
+  font-size: 10px;
+}
 }
 
 @media screen and (max-width: 500px) {
